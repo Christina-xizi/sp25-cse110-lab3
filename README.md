@@ -1,2 +1,2 @@
 # Lab 2 - Starter
-Website URL: https://christina-xizi.github.io/Lab2_Starter/
+Website URL: https://christina-xizi.github.io/sp25-cse110-lab3/
