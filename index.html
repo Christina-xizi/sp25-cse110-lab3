@@ -4,11 +4,40 @@
     <meta name="description" content="Meeting minutes for Team Sync">
     <title>Team Sync Meeting Minutes</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-  </head>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+     <!-- Internal CSS example using the <style> element -->
+    <style>
+    :root {
+      --accent-color: #ed8a7b;
+    }
+
+    #agenda {
+      border: 2px dashed var(--accent-color, orange);
+    }
+
+    details > summary {
+      cursor: pointer;
+      background-color: hsla(200, 50%, 90%, 0.8);
+      padding: 0.5em;
+      border-radius: 4px;
+    }
+    
+    nav > ul > li {
+      padding: 0.3em 0.6em;
+      background-color: #f5f5f5;
+    }
+  </style>
+</head>
 
   <body>
     <header>
-      <h1>Team Sync Meeting Minutes</h1>
+       <!-- Inline CSS example using the <style> element-->
+      <h1 style="color: hsl(200,60%,40%); padding: 0.5rem;">
+        Team Sync Meeting Minutes
+      </h1>
       <h2>Check-Ins</h2>
       <h3>April 14, 2025</h3>
       <p><b>Note:</b> Next meeting is on April 21, 2025.</p>
